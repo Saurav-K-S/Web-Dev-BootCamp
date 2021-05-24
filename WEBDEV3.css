@@ -1,0 +1,50 @@
+
+div{
+background-color: black;
+color: white;
+}
+
+.title{
+text-align: center;
+font-family: monospace;
+}
+
+
+
+body{
+margin: 0px;
+text-align: center;
+font-size: large;
+
+}
+
+ul{
+    list-style:none ;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li{
+    display: inline-flex;
+    padding: 10px;
+    height:fit-content;
+    width:max-content;
+    justify-content: space-around;
+    transition:color 1s ease-in-out;
+    transition:font-size 1s ease-in-out;
+    border: solid black;
+}
+ul li:hover{
+    color: yellowgreen;
+    font-size: xx-large;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    }
