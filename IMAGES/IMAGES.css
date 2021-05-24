@@ -1,0 +1,16 @@
+body{
+    background-color: dimgray;
+    color: maroon;
+}
+p{
+    text-align: center;
+}
+#bton{
+    background-color:palegoldenrod;
+    height: 50px;
+    width: 50px;
+}
+img{
+    width: 90%;
+    height: auto;
+}
